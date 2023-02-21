@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+      
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Angelina Volchek</h1>
+        <p> Student</p>
+        <div class="navigation">
+            <ul>
+                <li> <a href="#aboutme">
+                    About me
+                </a>
+                </li>
+                <li> <a href="#skills">
+                    Skills   
+                </a>
+                </li>
+                <li><a href="#Education">
+                    Education
+                </a>
+                </li>
+             </ul>       
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <h2 class="inf">Contact information</h2>
+
+            <div class="data">
+                <ul>
+                    <li><a href="https://github.com/angelvlch" target="_blank"> <img
+                                src="./assets/img/github-icon-1.svg"  alt=" Git-hub">@angelvlch</a></li>
+                    <li><a href="https://t.me/angelvlch" target="_blank"> <img src="./assets/img/telegram.svg"
+                                alt="Telegram" >@angelvlch</a></li>
+                    <li><a href="angelisha#0649" target="_blank"> <img src="./assets/img/discord.svg" alt="Discord"
+                                > angelisha#0649</a></li>
+                    <li><a href="mailto:angelforworkpay@gmail.com" target="_blank"> <img src="./assets/img/gmail.svg"
+                                alt="Gmail" >angelforworkpay@gmail.com</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="aboutme">
+            <h2>Briefly About Myself:</h2>
+            <img  class="avatar" src="./assets/img/photo_2023-02-11_10-48-45.jpg"  alt="foto">
+            <div>
+                <p class="floatstop">I am a <span class="caps">first-year student</span> of the <span class="imp">Belarusian State Electrotechnical University</span> . I am 18.I like to
+                    study and I do it often.I prefer play in computer game in my free time.Быстрая сортировка использует алгоритм "разделяй и властвуй".
+                     Она начинается с разбиения исходного массива на две области. 
+                     Эти части находятся слева и справа от отмеченного элемента, называемого опорным. 
+                     В конце процесса одна часть будет содержать элементы меньшие, чем опорный, а другая часть 
+                     будет содержать элементы больше опорного.При сортировке вставками массив разбивается на две области: упорядоченную и и неупорядоченную.
+                      Изначально весь массив является неупорядоченной областью. При первом проходе первый элемент из неупорядоченной
+                      области изымается и помещается в правильном положении в упорядоченной области.
+                     На каждом проходе размер упорядоченной области возрастает на 1, а размер неупорядоченной области
+                      сокращается на 1.                    
+                     Основной цикл работает в интервале от 1 до N-1. На j-й итерации элемент [i] вставлен в правильное 
+                     положение в упорядоченной области. Это сделано путем сдвига всех элементов упорядоченной области, которые больше, чем [i], на одну позицию вправо. 
+                     [i] вставляется в интервал между теми элементами, которые меньше [i], и теми, которые больше [i].</p>
+            </div>
+        </section>
+        <section>
+            <div id="skills">
+                <h2>Skills</h2>
+                <table class="left">
+                    <th >Hard skills</th>
+                    <th>Soft skills</th>
+                    <tr>
+                        <td>C++</td>
+                        <td>Good</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe After Effects</td>
+                        <td>Nice</td>
+                    </tr>
+                    <tr>
+                        <td>CorelDRAW</td>
+                        <td>Pretty</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+        <div id="Code">
+            <h2>Code example</h2>
+            <pre><code>
+for (i = i_max; i&ltn - 1; i++) 
+a[i] = a[i + 1]; 
+for (i = 0; i&ltn - 1; i++)
+for (j = j_max; j&ltn; j++) 
+a[i][j] = a[i][j + 1];
+n–;</code></pre>
+            </div>
+        <div id="work">
+            <h2>Work experience</h2>
+            <p>I worked part-time at the factory two years ago in the summer, I also sold things through instagram</p>
+       </div>
+       
+        <section id="Education">
+            <h2>Education</h2>
+            <div>
+                <ul>
+                    <li>
+                        <p>in the process of obtaining a bachelor’s degree in the field of “Information systems and
+                            technologies in the gaming industry”</p>
+                    </li>
+                    <li>
+                        <p>some tutorials on youtube</p>
+                    </li>
+                    <li>
+                        <p>books</p>
+                    </li>
+                </ul>
+                </div>
+       
+       </section>
+            <h2>English</h2>
+            <p>I have A2 level,but I <span class="strive">strive to improve</span> my English.</p> 
+    </main>
+    <footer>
+        <div>
+            <a href="https://github.com/angelvlch" target="_blank"><img src="./assets/img/github-icon-1.svg"
+               alt="logo github" class="rs">Visit my GitHub</a>
+        <p>2023</p>
+        <a href="https://rs.school/js/"   target="_blank"><img src="./assets/img/rs_school.svg" class="rsschool" alt="RsSchool">  </a> 
+        </div>
+      
+    </footer>
+</body>
+</html>
